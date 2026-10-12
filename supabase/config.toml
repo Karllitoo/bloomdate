@@ -1,0 +1,9 @@
+project_id = "bloomdate"
+
+[auth]
+site_url = "https://bloomdate-gilt.vercel.app"
+additional_redirect_urls = ["https://bloomdate-gilt.vercel.app/auth/callback"]
+
+[auth.email]
+# Enable after configuring custom SMTP for confirmation delivery.
+enable_confirmations = false
